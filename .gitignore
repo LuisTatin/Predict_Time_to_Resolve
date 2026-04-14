@@ -1,0 +1,8 @@
+db/minio_data/
+db/postgres_data/
+data/raw/
+data/processed/
+models/
+.venv/
+__pycache__/
+.DS_Store

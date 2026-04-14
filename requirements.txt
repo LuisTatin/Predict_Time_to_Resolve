@@ -1,0 +1,11 @@
+pandas
+numpy
+xgboost
+mlflow
+sqlalchemy
+psycopg2-binary
+pyarrow
+joblib
+faker
+boto3
+scikit-learn
