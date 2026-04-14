@@ -18,7 +18,7 @@ mlflow.set_tracking_uri("http://localhost:5001")
 
 def predict_new_ticket():
     # --- DADOS DO NOVO CHAMADO (Simulação) ---
-    # Imagine que esses dados vieram de um formulário da Infraspeak
+    # Imagine que esses dados vieram de um formulário de uma plataforma
     novo_chamado = {
         'edificio_idade': 45,  # Prédio antigo
         'prioridade': 1,  # Urgente

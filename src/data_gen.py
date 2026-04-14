@@ -53,7 +53,7 @@ def generate_complex_data(n_samples=3000):
 
     df = pd.DataFrame(data)
 
-    # 💾 Salvando no Postgres (Portfólio de SQL!)
+    # Salvando no Postgres (Portfólio de SQL!)
     df.to_sql('fact_tickets', engine, if_exists='replace', index=False)
     print("✅ Dados salvos com sucesso no PostgreSQL!")
 

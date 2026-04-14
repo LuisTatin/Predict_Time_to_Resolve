@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # 1. Banco de Dados: Para o seu portfólio de SQL e metadados do MLflow
+  # 1. Banco de Dados: SQL e metadados do MLflow
   db:
     image: postgres:15
     container_name: mlflow_db
